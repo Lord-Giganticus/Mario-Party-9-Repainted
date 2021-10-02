@@ -1,0 +1,16 @@
+<wiidisc version="1">
+	<id game="SSQ" />
+	<options>
+		<section name="Mario Party 9: Replainted">
+			<option name="Suffer">
+				<choice name="Enabled">
+					<patch id="mp9folder" />
+				</choice>
+			</option>
+		</section>
+	</options>
+	<patch id="mp9folder">
+		<folder external="/mp9" recursive="false" />
+		<folder external="/mp9" disc="/" />
+	</patch>
+</wiidisc>
